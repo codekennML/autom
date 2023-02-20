@@ -3,11 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Autom - automate tasks easily </title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="app">
+      <!-- Header section  -->
+      <header class="header">
+ <!-- NavBar container  -->
+        <nav class = "navbar container" >
+          <div class="logo">
+            <img src="./assets//img/logo-icon.png" alt="logo-icon" class="logo__img">
+            <a href="#" class="logo__link">Autom. </a>
+          </div>
+
+          <div class="nav__menu">
+            <ul class="nav__menu__list">
+              <li class="nav__menu__link__list">
+                <a href="" class="nav__link">Platform</a>
+              </li>
+              <li class="nav__menu__link__list">
+                <a href="" class="nav__link">Solutions</a>
+              </li>
+              <li class="nav__menu__link__list">
+                <a href="" class="nav__link">Resources</a>
+              </li>
+              <li class="nav__menu__link__list">
+                <a href="" class="nav__link">Pricing </a>
+              </li>
+              <li class="nav__menu__link__list">
+                <a href="" class="nav__link">Log In </a>
+              </li>
+              <li class="nav__menu__link__list">
+                <a href="" class="nav__link get_started_btn">Get Started</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Nav toggle -->
+          <button class="nav__toggle" id="nav__toggle">
+            <i class='bx bx-menu'></i>
+          </button>
+        </nav>
+      </header>
+
+<br><br><br>
+
+      <main class="container main">
+        <!-- Hero Section  -->
+        <section class = "hero__banner__lhs">
+
+          <h2 class="hero__title">Integrate your stack, automate with ease  </h2>
+          <p class="hero__subtitle">Evolve with speed and scale your business with the leaders in low-code automation</p>
+          <div class="hero__cta">
+            <button class="btn__start__trial">Start Free Trial</button>
+            <button class="btn__request__demo">Request Demo</button>
+          </div>
+     
+       <div class="hero__works">
+        <span>You're in great company</span>
+      <ul class="hero__works__logo">
+        <li class="works__logo__img"><img src="./assets/img/partner-logo-1.svg" alt="partner-logo-1" class="works_logo"></li>
+        <li class="works__logo__img"><img src="./assets/img/partner-logo-2.svg" alt="partner-logo-2" class="works_logo"></li>
+        <li class="works__logo__img"><img src="./assets/img/partner-logo-3.svg" alt="partner-logo-3" class="works_logo"></li>
+        <li class="works__logo__img"><img src="./assets/img/partner-logo-4.svg" alt="partner-logo-4" class="works_logo"></li>
+      </ul>
+    </div>
+        </section>
+        <section class="hero__banner__rhs"></section> 
+
+        <!-- Hero End -->
+      </main>
+
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
